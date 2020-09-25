@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "theacademic-writing",
+    "theacademic-writing": "theacademic-writing",
+    "theacademicpaper": "theacademic-writing"
+  }
+}

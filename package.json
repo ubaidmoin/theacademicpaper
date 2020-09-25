@@ -1,0 +1,72 @@
+{
+  "name": "theacademicpaper",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://theacademic-writing.web.app/",
+  "dependencies": {
+    "@date-io/date-fns": "^1.3.13",
+    "@material-ui/core": "^4.9.4",
+    "@material-ui/icons": "^4.9.1",
+    "@sendgrid/mail": "^7.1.1",
+    "classnames": "2.2.6",
+    "cors": "^2.8.5",
+    "firebase": "^7.9.1",
+    "history": "^4.10.1",
+    "material-table": "^1.57.2",
+    "mdbreact": "^4.25.2",
+    "moment": "^2.24.0",
+    "mui-datatables": "^2.14.0",
+    "node-sass": "4.12.0",
+    "nouislider": "13.1.5",
+    "rc-input-number": "^4.5.4",
+    "react": "16.8.6",
+    "react-accessible-accordion": "^3.0.1",
+    "react-bootstrap-sweetalert": "^5.1.9",
+    "react-bootstrap-switch": "15.5.3",
+    "react-datetime": "2.16.3",
+    "react-dom": "16.8.6",
+    "react-dropdown": "^1.6.4",
+    "react-firebase-file-uploader": "^2.4.3",
+    "react-ga": "^2.7.0",
+    "react-paypal-button-v2": "^2.6.1",
+    "react-radio-buttons": "^1.2.2",
+    "react-redux": "^7.2.0",
+    "react-router": "5.0.1",
+    "react-router-dom": "5.0.1",
+    "react-scripts": "3.4.1",
+    "react-star-rating-component": "^1.4.1",
+    "react-star-ratings": "^2.3.0",
+    "react-stepper-horizontal": "^1.0.11",
+    "react-tabs": "^3.1.0",
+    "reactstrap": "8.0.0",
+    "semantic-ui-react": "^0.88.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-sass": "node-sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.css",
+    "minify-sass": "node-sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.min.css --output-style compressed",
+    "map-sass": "node-sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.css --source-map true"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "optionalDependencies": {
+    "typescript": "3.5.2"
+  }
+}
